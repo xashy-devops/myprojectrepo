@@ -13,10 +13,10 @@ jobs:
     runs-on: ubuntu-latest  
     steps:
       - name: create a file on the runner
-        uses: mkdir xashybatch5   
+        run: mkdir xashybatch5   
       - name: install maven
-        uses: sudo apt get install maven -y 
-        
+        run: sudo apt get install maven -y 
+
     
     
     
