@@ -1,0 +1,26 @@
+name: build code 
+
+## speciy the event triggers 
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:  
+
+jobs:
+    
+  job1:
+    runs-on: ubuntu-latest  
+    steps:
+      - name: create a file on the runner
+        uses: mkdir xashybatch5   
+      - name: install maven
+        uses: sudo apt get install maven -y 
+        
+    
+    
+    
+    
+
+
+  
