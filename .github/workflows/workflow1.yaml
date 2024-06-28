@@ -14,5 +14,5 @@ jobs:
     steps:
       - name: create a file on the runner
         run: mkdir xashybatch5   
-      - name: install maven
-        run: sudo apt get install maven -y 
+      - name: display this command 
+        run: echo "we are learning github action"
